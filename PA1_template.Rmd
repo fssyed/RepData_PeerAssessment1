@@ -1,3 +1,4 @@
+
 # Coursera Reporducible Research
 ##PA1 - Faraz S.
 
@@ -7,6 +8,8 @@ setwd("~/R/Working Dir")
 library(ggplot2)
 library(scales)
 library(Hmisc)
+library(knitr)
+opts_chunk$set(echo = TRUE)
 ```
 
 First loading the data
