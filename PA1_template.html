@@ -135,6 +135,8 @@ library(Hmisc)</code></pre>
 <pre><code>## The following objects are masked from 'package:base':
 ## 
 ##     format.pval, round.POSIXt, trunc.POSIXt, units</code></pre>
+<pre class="r"><code>library(knitr)
+opts_chunk$set(echo = TRUE)</code></pre>
 <p>First loading the data</p>
 <pre class="r"><code>if(!file.exists('activity.csv')){
     unzip('activity.zip')}
